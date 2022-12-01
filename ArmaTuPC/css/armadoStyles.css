@@ -1,0 +1,89 @@
+.contenedor {
+
+    overflow: hidden;
+}
+
+
+.contenedor-tarjetas{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    
+}
+#contenedor-botones{
+    text-align: center;
+}
+
+.producto{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    display: inline-block;
+    width: 33%;
+    text-align: center;   
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.boton-agregar{
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.boton-eliminar{
+    border-radius: 8px;
+}
+
+
+
+.titulos-productos{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.botones-producto{
+    text-align: center;
+    width: 100%;
+}
+
+.boton{
+    width: 30%;
+    margin: 0px auto;
+}
+
+.tarjeta{
+    border-radius: 16px;
+    border: solid;
+    border-color: #AF9164;
+    margin: 20px 20px 20px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.indice{
+    text-align: center;
+}
+
+.link-indice{
+    color: rgb(52, 52, 52);
+    
+
+}
+
+.link-indice:hover{
+    color: #AF9164;
+    font-weight: bold;
+    
+}
+
+.color-nav{
+    background-color: #AF9164;
+}
+
+.color-footer{
+    background-color: #AF9164;
+}
+
+.color-wsp{
+    background-color: #AF9164;
+}

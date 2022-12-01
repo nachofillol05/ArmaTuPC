@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arma tu PC</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/armadoStyles.css">
+    <script src="https://kit.fontawesome.com/619729e258.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    
+      
+    <!--HEADER-->
+    <nav>
+        <div class="nav-wrapper color-nav">
+          <a href="../index.html" class="brand-logo">Arma tu PC simulator</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5493518030737&text=Tengo%20dudas%20sobre"> <i class="fa-brands fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <!--TARJETAS-->
+    <div class="contenedor-indice">
+      <br><br>
+    <h1 style="text-align:center; color: #AF9164; font-weight: bold">Selecciona los componentes</h1>
+    <div class="indice">
+        <ul>
+          <li><a href="#procesadores" class="link-indice">Procesador<a/></li>
+          <li><a href="#rams" class="link-indice">Memoria RAM<a/></li>
+          <li><a href="#graficas" class="link-indice">Gráfica<a/></li>
+          <li><a href="#mothers" class="link-indice">Mother<a/></li>
+          <li><a href="#gabinetes" class="link-indice">Gabinete<a/></li>
+        </ul>
+    </div>
+  </div>
+    <div class="contenedor-tarjetas">
+      <main id="contenedor-productos"></main>
+    </div>
+    <hr>
+    <hr>
+    <div id="contenedor-botones"> 
+      <h2 style="color: #AF9164; font-weight: bold">Orden de compra</h2>
+      <p id="parrafo"style="color: #AF9164"></p>
+        <a class="waves-effect waves-light btn-large" onClick="HacerCompra()">Hacer pedido<i class="fa-brands fa-whatsapp"></i></a>
+       <br><br><br>
+    </div>
+
+    <!--WHATSAPP BUTTON-->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large color-wsp" href="https://api.whatsapp.com/send?phone=5493518030737&text=Tengo%20dudas%20sobre">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+          
+
+    <!--FOOTER-->
+  
+    <footer class="page-footer color-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Seguinos</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://www.instagram.com"> <i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.Twitter.com"> <i class="fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.Facebook.com"> <i class="fa-brands fa-facebook"></i> Facebook</a></li>
+            </ul>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Arma tu PC</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="../index.html">Inicio</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://api.whatsapp.com/send?phone=5493518030737&text=Tengo%20dudas%20sobre"> <i class="fa-brands fa-whatsapp"></i> Soporte</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2022 Derechos reservados
+        </div>
+      </div>
+    </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="/js/armaTuPC.js"></script>
+ </body>
+ </html>

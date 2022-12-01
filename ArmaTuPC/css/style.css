@@ -1,0 +1,37 @@
+body{
+    background-color: #FFFFFF;
+}
+#labelConteiner{
+    height: 3cm;
+}
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-color{
+    background-color: #AF9164;
+}
+
+.color-footer{
+    background-color: #AF9164;
+}
+
+.contenedor-parrafos{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contenedor-parrafo{
+    width: 75%;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+}
+
+.titulo-parrafo{
+    color: #AF9164;
+    font-weight: bold;
+}
+
